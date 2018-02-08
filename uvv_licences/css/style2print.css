@@ -1,0 +1,13 @@
+/********************************************************************************/
+/** Communs
+/********************************************************************************/
+
+#btnHome, #btnFactures, #btnClubs, #btnLogin, #btnLogout, #notifLicencesNombre, #notifLicenciesNombre, #valButton, #histo, #ruban_haut {
+	display: none;
+	visibility: hidden;
+}
+
+.hide4Print {
+	display: none;
+	visibility: hidden;
+}

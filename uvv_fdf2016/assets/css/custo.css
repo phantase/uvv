@@ -1,0 +1,62 @@
+/** Custo **/
+.alert {
+    border: solid 1px #f00;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #ffaaaa;
+    font-weight: bold;
+    padding:5px;
+    color: #0a0a0a;
+}
+
+.success {
+    border: solid 1px #0f0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #aaffaa;
+    font-weight: bold;
+    padding:5px;
+    color: #0a0a0a;
+}
+
+/** Overide des couleurs **/
+a:hover {
+    color: #4BBC5A !important;
+}
+header.major h2 {
+    color: #4BBC5A;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #4BBC5A;
+}
+input[type="checkbox"]:focus + label:before,
+input[type="radio"]:focus + label:before {
+    border-color: #4BBC5A;
+}
+ul.feature-icons li:before {
+    background: #4BBC5A;
+}
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+.button.special {
+    background-color: #4BBC5A;
+}
+#header {
+    background: #4BBC5A;
+}
+#header > nav ul li a.active {
+    color: #4BBC5A !important;
+}
+#titleBar .toggle:before {
+    background: #4BBC5A;
+}
+#header > nav ul li {
+    border-top: solid 2px #82BA88;
+}

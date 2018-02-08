@@ -1,0 +1,126 @@
+/********************************************************************************/
+/** Communs
+/********************************************************************************/
+
+body {
+	margin: 0 auto;
+	width: 960px;
+	background-image: url("../images/noise.jpg");
+	font-family: arial, helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+h1 {
+	margin: 30px auto;
+}
+
+.logoEspace {
+	float:right;
+	margin-top: -30px;
+}
+
+/********************************************************************************/
+/** Dashboard
+/********************************************************************************/
+
+#badges {
+	margin-top:30px;
+}
+
+.badge {
+	width:250px;
+	height:150px;
+	border:solid 2px black;
+	border-radius:10px;
+	float:left;
+	margin:30px 30px 0 0;
+	background:white;
+}
+
+.badge .icon {
+	width:128px; height:128px;
+	margin:11px 0;
+	float:left;
+}
+.badge .icon48px {
+	width:48px; height:48px;
+	margin:50px 0;
+	float:left;
+}
+.badge .label {
+	width: 122px; height:150px;
+	padding:66px 0; /* Magic Number: 66 */
+	float:left;
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:20px;
+}
+
+.badge .todo {
+	float:left;
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:40px;
+	-webkit-transform: rotate(330deg);
+	-moz-transform: rotate(330deg);
+	-o-transform: rotate(330deg);
+	writing-mode: lr-tb;
+	margin-top: -235px;
+	margin-left: 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+}
+.badge .notifTodo {
+	float:left;
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:40px;
+	-webkit-transform: rotate(330deg);
+	-moz-transform: rotate(330deg);
+	-o-transform: rotate(330deg);
+	writing-mode: lr-tb;
+	margin-top: -90px;
+	margin-left: 40px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 20px;
+}
+
+#identite {
+	width: 200px;
+}
+
+.notif {
+	margin:55px 0px 0px 0px; /* Magic Number: 55 = 66 - 11 */
+	width:250px;
+	text-align:right;
+}
+.notifNumber {
+	font-size:96px;
+	font-weight:bold;
+}
+.notifIcon {
+	margin-bottom:15px; /* Magic Number : 15 */
+}
+.notifLabel {
+	font-variant:small-caps;
+	font-weight:bold;
+	font-size:20px;
+	text-align:center;
+}
+
+/********************************************************************************/
+/** Adherents
+/********************************************************************************/
+
+#adherentsList {
+	border: solid 2px black;
+}
+
+td.details-control {
+	background: url('../images/details_open.png') no-repeat center center;
+	cursor: pointer;
+}
+tr.shown td.details-control {
+	background: url('../images/details_close.png') no-repeat center center;
+}

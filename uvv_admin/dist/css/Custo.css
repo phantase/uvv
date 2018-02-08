@@ -1,0 +1,14 @@
+/* 
+    Created on : 14 nov. 2015, 17:34:11
+    Author     : phantase
+*/
+
+img.club-icon {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  margin-right: 5px;
+}

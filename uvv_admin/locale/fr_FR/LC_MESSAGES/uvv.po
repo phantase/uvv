@@ -1,0 +1,570 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uvv\n"
+"POT-Creation-Date: 2015-12-06 15:33+0100\n"
+"PO-Revision-Date: 2015-12-06 15:38+0100\n"
+"Last-Translator: Phantase <phantase@phantase.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: views\n"
+"X-Poedit-SearchPath-1: controllers\n"
+"X-Poedit-SearchPath-2: index.php\n"
+
+#: controllers/checkclub.php:13
+msgid "Authentication failled"
+msgstr "&Eacute;chec de la connexion"
+
+#: controllers/checkclub.php:14
+msgid "The pair login/password is not recognized, please try again."
+msgstr ""
+"Le couple Identifiant/Mot de passe n'est pas reconnu, merci de recommencer."
+
+#: controllers/checkclub.php:26
+msgid "Authentication successful"
+msgstr "Succ&egrave;s de la connexion"
+
+#: controllers/checkclub.php:27
+msgid "You are now logged in."
+msgstr "Vous &ecirc;tes maintenant connect&eacute;."
+
+#: controllers/currentseason.php:10
+msgid "error"
+msgstr "erreur"
+
+#: index.php:64
+msgid "No data available in table"
+msgstr "Aucune donn&eacute;e dans la table"
+
+#: index.php:65
+msgid "Showing page _PAGE_ of _PAGES_"
+msgstr "Page _PAGE_ of _PAGES_"
+
+#: index.php:66
+msgid "No records available"
+msgstr "Pas d'enregistrement disponible"
+
+#: index.php:67
+msgid "(filtered from _MAX_ total records)"
+msgstr "(filtr&eacute; de _MAX_ enregistrements)"
+
+#: index.php:68
+msgid "Display _MENU_ records per page"
+msgstr "Affiche _MENU_ enregistrements par page"
+
+#: index.php:69
+msgid "Loading..."
+msgstr "Chargement..."
+
+#: index.php:70
+msgid "Processing..."
+msgstr "Traitement..."
+
+#: index.php:71
+msgid "Search:"
+msgstr "Recherche :"
+
+#: index.php:72
+msgid "Nothing found - sorry"
+msgstr "Rien trouv&eacute; - d&eacute;sol&eacute;"
+
+#: index.php:74
+msgid "First"
+msgstr "Premier"
+
+#: index.php:75
+msgid "Last"
+msgstr "Dernier"
+
+#: index.php:76
+msgid "Next"
+msgstr "Suivant"
+
+#: index.php:77
+msgid "Previous"
+msgstr "Pr&eacute;c&eacute;dent"
+
+#: index.php:80
+msgid "activate to sort column ascending"
+msgstr "activer pour trier en ordre croissant"
+
+#: index.php:81
+msgid "activate to sort column descending"
+msgstr "activer pour trier en ordre d&eacute;croissant"
+
+#: index.php:90 views/modules/sidebar_menu-connected.php:6
+#: views/modules/sidebar_menu-disconnected.php:5 views/pages-parts/404.php:7
+#: views/pages-parts/500.php:7 views/pages-parts/about.php:8
+#: views/pages-parts/help.php:8 views/pages-parts/home.php:8
+#: views/pages-parts/invoice.php:10 views/pages-parts/invoices.php:9
+#: views/pages-parts/season.php:10 views/pages-parts/seasons.php:9
+#: views/pages-parts/terms.php:7
+msgid "Home"
+msgstr "Accueil"
+
+#: index.php:100 views/modules/sidebar_menu-connected.php:11
+#: views/pages-parts/invoice.php:13 views/pages-parts/invoices.php:5
+#: views/pages-parts/invoices.php:10
+msgid "Invoices"
+msgstr "Factures"
+
+#: index.php:101 views/pages-parts/invoice.php:5
+#: views/pages-parts/invoice.php:16 views/pages-parts/invoice.php:61
+msgid "Invoice"
+msgstr "Facture"
+
+#: index.php:102 views/pages-parts/season.php:13
+#: views/pages-parts/seasons.php:5 views/pages-parts/seasons.php:10
+#: views/pages-parts/seasons.php:26
+msgid "Seasons"
+msgstr "Saison"
+
+#: index.php:103 views/pages-parts/invoices.php:67
+#: views/pages-parts/season.php:5 views/pages-parts/season.php:16
+#: views/pages-parts/season.php:33
+msgid "Season"
+msgstr "Saison"
+
+#: index.php:104 views/modules/sidebar_menu-connected.php:21
+#: views/modules/sidebar_menu-disconnected.php:6 views/pages-parts/help.php:4
+#: views/pages-parts/help.php:9
+msgid "Help"
+msgstr "Aide"
+
+#: index.php:105 views/modules/sidebar_menu-connected.php:24
+#: views/modules/sidebar_menu-disconnected.php:7 views/pages-parts/about.php:4
+#: views/pages-parts/about.php:9
+msgid "About"
+msgstr "&Agrave; propos"
+
+#: index.php:106 views/pages-parts/terms.php:4 views/pages-parts/terms.php:8
+msgid "Terms"
+msgstr "Conditions"
+
+#: index.php:107 views/pages-parts/404.php:4
+msgid "404 Page not found"
+msgstr "404 Page non trouv&eacute;e"
+
+#: index.php:108 views/pages-parts/500.php:4
+msgid "500 Error"
+msgstr "500 Erreur"
+
+#: views/modules/footer.php:4
+msgid "All rights reserved"
+msgstr "Tous droits r&eacute;serv&eacute;s"
+
+#: views/modules/header_invoices-menu.php:12
+#, php-format
+msgid "%s invoices unpayed"
+msgstr "%s factures non pay&eacute;es"
+
+#: views/modules/header_invoices-menu.php:26 views/pages-parts/invoices.php:86
+#, php-format
+msgid "%s days"
+msgstr "%s jours"
+
+#: views/modules/header_invoices-menu.php:29
+#, php-format
+msgid "%s licences - %s &euro;"
+msgstr "%s licences - %s &euro;"
+
+#: views/modules/header_invoices-menu.php:35
+msgid "See All Invoices"
+msgstr "Voir toutes les factures"
+
+#: views/modules/header_user-account-menu.php:34
+msgid "Profile"
+msgstr "Profil"
+
+#: views/modules/header_user-account-menu.php:37
+msgid "Sign out"
+msgstr "D&eacute;connexion"
+
+#: views/modules/sidebar_login-link.php:3 views/pages/login.php:5
+msgid "Log in"
+msgstr "Connexion"
+
+#: views/modules/sidebar_menu-connected.php:3
+#: views/modules/sidebar_menu-disconnected.php:3
+msgid "NAVIGATION"
+msgstr "NAVIGATION"
+
+#: views/modules/sidebar_menu-connected.php:15
+msgid "All invoices"
+msgstr "Toutes les factures"
+
+#: views/modules/sidebar_menu-connected.php:16
+msgid "Payed invoices"
+msgstr "Factures pay&eacute;es"
+
+#: views/modules/sidebar_menu-connected.php:17
+msgid "Unpayed invoices"
+msgstr "Factures non pay&eacute;es"
+
+#: views/modules/sidebar_search-form.php:4 views/pages-parts/404.php:25
+#: views/pages-parts/500.php:25
+msgid "Search..."
+msgstr "Recherche..."
+
+#: views/modules/sidebar_user-panel.php:9
+msgid "Administrator"
+msgstr "Administrateur"
+
+#: views/pages-parts/404.php:18
+msgid "Oops! Page not found."
+msgstr "Oops! Page non trouv&eacute;e."
+
+#: views/pages-parts/404.php:20
+msgid "We could not find the page you were looking for."
+msgstr "Nous ne pouvons pas trouver la page que vous recherchez."
+
+#: views/pages-parts/404.php:21 views/pages-parts/500.php:21
+msgid ""
+"Meanwhile, you may <a href='home'>return to dashboard</a> or try using the "
+"search form."
+msgstr ""
+"En attendant, vous pouvez <a href='home'>retourner à l'accueil</a> ou "
+"utiliser le formulaire de recherche."
+
+#: views/pages-parts/500.php:18
+msgid "Oops! Something went wrong."
+msgstr "Oops! Quelque chose s'est mal pass&eacute;."
+
+#: views/pages-parts/500.php:20
+msgid "We will work on fixing that right away."
+msgstr "Nous travaillons &agrave; r&eacute;parer ceci."
+
+#: views/pages-parts/about.php:5
+msgid "To learn everything about this application"
+msgstr "Apprenez tout sur cette application"
+
+#: views/pages-parts/help.php:5
+msgid "Learn how to use the member area to manage your club"
+msgstr ""
+"Apprenez comment utiliser votre espace membre pour g&eacute;rer votre club"
+
+#: views/pages-parts/home.php:5
+msgid "Membership area"
+msgstr "Zone membre"
+
+#: views/pages-parts/home.php:21
+msgid "Remove"
+msgstr "Supprimer"
+
+#: views/pages-parts/home.php:38
+msgid "Current season"
+msgstr "Saison en cours"
+
+#: views/pages-parts/home.php:43 views/pages-parts/home.php:57
+#: views/pages-parts/home.php:72
+msgid "More info"
+msgstr "Plus d'informations"
+
+#: views/pages-parts/home.php:52
+msgid "Unpayed Invoices"
+msgstr "Factures non pay&eacute;es"
+
+#: views/pages-parts/home.php:66
+msgid "Members"
+msgstr "Membres"
+
+#: views/pages-parts/invoice.php:33 views/pages-parts/invoice.php:43
+msgid "Union Vovinam Viet Vo Dao"
+msgstr "Union Vovinam Viet Vo Dao"
+
+#: views/pages-parts/invoice.php:34
+msgid "Date:"
+msgstr "Date :"
+
+#: views/pages-parts/invoice.php:41
+msgid "From"
+msgstr "De"
+
+#: views/pages-parts/invoice.php:47 views/pages-parts/invoice.php:57
+msgid "Email:"
+msgstr "Courriel :"
+
+#: views/pages-parts/invoice.php:51
+msgid "To"
+msgstr "&Agrave;"
+
+#: views/pages-parts/invoice.php:63
+msgid "Licences:"
+msgstr "Licences :"
+
+#: views/pages-parts/invoice.php:64
+msgid "Payment Due:"
+msgstr "Paiement d&ucirc; :"
+
+#: views/pages-parts/invoice.php:100
+msgid "Payment Methods:"
+msgstr "M&eacute;thodes de paiement :"
+
+#: views/pages-parts/invoice.php:110
+msgid "Amount Due"
+msgstr "Somme d&ucirc; :"
+
+#: views/pages-parts/invoice.php:114
+msgid "Total:"
+msgstr "Total :"
+
+#: views/pages-parts/invoice.php:125 views/pages-parts/invoices.php:103
+#: views/pages-parts/season.php:46
+msgid "Print"
+msgstr "Imprimer"
+
+#: views/pages-parts/invoice.php:126 views/pages-parts/invoices.php:104
+#: views/pages-parts/season.php:47
+msgid "Generate PDF"
+msgstr "G&eacute;n&eacute;rer un PDF"
+
+#: views/pages-parts/invoice.php:138
+msgid "Administration"
+msgstr "Administration"
+
+#: views/pages-parts/invoice.php:140
+msgid "Cannot cancel"
+msgstr "Annulation impossible"
+
+#: views/pages-parts/invoice.php:141
+msgid "Already payed"
+msgstr "D&eacute;j&agrave; pay&eacute;"
+
+#: views/pages-parts/invoice.php:143
+msgid "Cancel invoice"
+msgstr "Annuler la facture"
+
+#: views/pages-parts/invoice.php:144
+msgid "Mark as payed"
+msgstr "Marquer comme pay&eacute;"
+
+#: views/pages-parts/invoice.php:158
+msgid "Invoice unavailable"
+msgstr "Facture non disponible"
+
+#: views/pages-parts/invoice.php:161
+msgid ""
+"The invoice you try to visualize doesn't exist or you don't have the right "
+"to view it."
+msgstr ""
+"La facture que vous essayez de visualiser n'existe pas ou bien vous n'avez "
+"pas le droit de la voir."
+
+#: views/pages-parts/invoice.php:171 views/pages-parts/invoices.php:111
+#: views/pages-parts/season.php:71 views/pages-parts/seasons.php:68
+msgid "Authentication error"
+msgstr "Erreur d'authentification"
+
+#: views/pages-parts/invoice.php:174 views/pages-parts/invoices.php:114
+#: views/pages-parts/season.php:74 views/pages-parts/seasons.php:71
+msgid "You must be logged in to view this page."
+msgstr "Vous devez &ecirc;tre connect&eacute; pour voir cette page."
+
+#: views/pages-parts/invoice.php:175 views/pages-parts/invoices.php:115
+#: views/pages-parts/season.php:75 views/pages-parts/seasons.php:72
+msgid "Please use the menu on the left to log in."
+msgstr "Utilisez le menu &agrave; gauche pour vous connecter."
+
+#: views/pages-parts/invoices.php:23
+#, php-format
+msgid "Invoices for %s"
+msgstr "Factures pour le club %s"
+
+#: views/pages-parts/invoices.php:25
+msgid "Invoices for everybody"
+msgstr "Factures de tous les clubs"
+
+#: views/pages-parts/invoices.php:27
+msgid "Payed or Not"
+msgstr "Pay&eacute;es ou non"
+
+#: views/pages-parts/invoices.php:31 views/pages-parts/invoices.php:88
+msgid "Payed"
+msgstr "Pay&eacute;es"
+
+#: views/pages-parts/invoices.php:34 views/pages-parts/invoices.php:85
+msgid "Not payed"
+msgstr "Non pay&eacute;es"
+
+#: views/pages-parts/invoices.php:62 views/pages-parts/seasons.php:43
+msgid "ID"
+msgstr "ID"
+
+#: views/pages-parts/invoices.php:63
+msgid "Club"
+msgstr "Club"
+
+#: views/pages-parts/invoices.php:64
+msgid "Amount"
+msgstr "Montant"
+
+#: views/pages-parts/invoices.php:65
+msgid "Licences"
+msgstr "Licences"
+
+#: views/pages-parts/invoices.php:66
+msgid "Date"
+msgstr "Date"
+
+#: views/pages-parts/invoices.php:68
+msgid "Status"
+msgstr "Statut"
+
+#: views/pages-parts/season.php:34
+msgid "From:"
+msgstr "De : "
+
+#: views/pages-parts/season.php:34
+msgid "To:"
+msgstr "&Agrave; :"
+
+#: views/pages-parts/season.php:58
+msgid "Season unavailable"
+msgstr "Saison non disponible"
+
+#: views/pages-parts/season.php:61
+msgid ""
+"The season you try to visualize doesn't exist or you don't have the right to "
+"view it."
+msgstr ""
+"La saison que vous essayez de visualiser n'existe pas ou vous n'avez pas le "
+"droit de la voir."
+
+#: views/pages-parts/seasons.php:44
+msgid "Name"
+msgstr "Nom"
+
+#: views/pages-parts/seasons.php:45
+msgid "Start"
+msgstr "D&eacute;but"
+
+#: views/pages-parts/seasons.php:46
+msgid "End"
+msgstr "Fin"
+
+#: views/pages-parts/seasons.php:55
+msgid "Current"
+msgstr "Actuelle"
+
+#: views/pages/forgotpassword.php:5
+msgid "Forgot password"
+msgstr "Mot de passe oubli&eacute;"
+
+#: views/pages/forgotpassword.php:29
+msgid "Password reset"
+msgstr "R&eacute;initialisation du mot de passe"
+
+#: views/pages/forgotpassword.php:30
+msgid "Please enter your mail to receive a link to reset your password."
+msgstr ""
+"Merci d'entrer votre courriel pour recevoir un lien vous permettant de "
+"r&eacute;initialiser votre mot de passe."
+
+#: views/pages/forgotpassword.php:33 views/pages/register.php:37
+msgid "Email"
+msgstr "Courriel"
+
+#: views/pages/forgotpassword.php:40
+msgid "Send"
+msgstr "Envoyer"
+
+#: views/pages/login.php:29
+msgid "Sign in to start your session"
+msgstr "Connectez vous pour commencer votre session"
+
+#: views/pages/login.php:32
+msgid "Login"
+msgstr "Identifiant"
+
+#: views/pages/login.php:36 views/pages/register.php:41
+msgid "Password"
+msgstr "Mot de passe"
+
+#: views/pages/login.php:43
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: views/pages/login.php:48
+msgid "Sign In"
+msgstr "Connexion"
+
+#: views/pages/login.php:53
+msgid "I forgot my password"
+msgstr "J’ai oubli&eacute; mon mot de passe"
+
+#: views/pages/login.php:54 views/pages/register.php:30
+msgid "Register a new membership"
+msgstr "Inscription"
+
+#: views/pages/register.php:5
+msgid "Registration Page"
+msgstr "Formulaire d'inscription"
+
+#: views/pages/register.php:33
+msgid "Full name"
+msgstr "Nom complet"
+
+#: views/pages/register.php:45
+msgid "Retype password"
+msgstr "V&eacute;rification du mot de passe"
+
+#: views/pages/register.php:52
+msgid "I agree to the terms"
+msgstr "J'accepte les conditions"
+
+#: views/pages/register.php:52
+msgid "View"
+msgstr "Voir"
+
+#: views/pages/register.php:57
+msgid "Register"
+msgstr "S'inscrire"
+
+#: views/pages/register.php:62
+msgid "I already have a membership"
+msgstr "J'ai d&eacute;j&agrave; un compte"
+
+#: views/pages/skeleton.php:50
+msgid "Toggle navigation"
+msgstr "Basculer la navigation"
+
+#~ msgid "To learn everything about <b>Event</b>S"
+#~ msgstr "Pour tout savoir d'<b>Event</b>S"
+
+#~ msgid "Learn how to use <b>Event</b>S in your daily life"
+#~ msgstr "Apprenez à utiliser <b>Event</b>S dans votre vie de tout les jours"
+
+#~ msgid "Member since %s"
+#~ msgstr "Membre depuis %s"
+
+#~ msgid "Discover"
+#~ msgstr "Découvrez"
+
+#~ msgid "Discover what <b>Event</b>S can bring to you"
+#~ msgstr "Découvrez ce qu'<b>Event</b>S peut vous apporter"
+
+#~ msgid "All your life is <b>Event</b>S"
+#~ msgstr "Toute votre vie est <b>Event</b>S"
+
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgid "Sign in using Facebook"
+#~ msgstr "Connectez-vous à l'aide de Facebook"
+
+#~ msgid "Sign in using Google+"
+#~ msgstr "Connectez-vous à l'aide de Google +"
+
+#~ msgid "Sign up using Facebook"
+#~ msgstr "S'inscrire à l'aide de Facebook"
+
+#~ msgid "Sign up using Google+"
+#~ msgstr "S'inscrire à l'aide de Google+"
+
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"

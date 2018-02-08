@@ -1,0 +1,47 @@
+version: '2'
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - "./.data/db:/var/lib/mysql"
+    environment:
+      MYSQL_ROOT_PASSWORD: arootpassword
+      MYSQL_DATABASE: unionvovinamwww
+      MYSQL_USER: unionvovinamwww
+      MYSQL_PASSWORD: unionvovinamwww
+
+  phpmyadmin:
+    depends_on:
+      - db
+    image: phpmyadmin/phpmyadmin
+    links:
+      - db
+    ports:
+      - "8081:80"
+    volumes:
+      - /sessions
+
+  web:
+    depends_on:
+      - db
+    image: ftertre/damp
+    links:
+      - db
+    ports:
+      - "80:80"
+    volumes:
+      - "./uvv_admin:/var/www/html/uvv_admin"
+      - "./uvv_fdf2016:/var/www/html/uvv_fdf2016"
+      - "./uvv_licences:/var/www/html/uvv_licences"
+      - "./.data/uvv:/var/www/html/images/"
+  api:
+    depends_on:
+      - db
+    image: ftertre/damp
+    links:
+      - db
+      - cdn
+    ports:
+      - "3000:80"
+    volumes:
+      - "./uvv_api/:/var/www/"

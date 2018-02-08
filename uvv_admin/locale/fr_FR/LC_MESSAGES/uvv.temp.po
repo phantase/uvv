@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: uvv\n"
+"POT-Creation-Date: 2015-06-21 21:38+0100\n"
+"PO-Revision-Date: 2015-11-14 12:12+0100\n"
+"Last-Translator: Phantase <phantase@phantase.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\..\\..\\\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: views\n"
+"X-Poedit-SearchPath-1: controllers\n"
+
+#: controllers/checkclub.php:13
+msgid "Authentication failled"
+msgstr "Echec de la connexion"
+
+#: controllers/checkclub.php:14
+msgid "The pair login/password is not recognized, please try again."
+msgstr "Le couple Identifiant/Mot de pass n'est pas reconnu, merci de recommencer."
+
+#: controllers/checkclub.php:26
+msgid "Authentication successful"
+msgstr "Succès de la connexion"
+
+#: controllers/checkclub.php:27
+msgid "You are now logged in."
+msgstr "Vous êtes maintenant connecté."
+
+#: views/modules/footer.php:4
+msgid "All rights reserved"
+msgstr "Tous droits r&eacute;serv&eacute;s"
+
+#: views/modules/header_factures-menu.php:12
+#, php-format
+msgid "%s invoices unpayed"
+msgstr "%s factures non payées"
+
+#: views/modules/header_factures-menu.php:26
+#, php-format
+msgid "%s days"
+msgstr "%s jours"
+
+#: views/modules/header_factures-menu.php:35
+msgid "See All Invoices"
+msgstr "Voir toutes les factures"
+
+#: views/modules/header_user-account-menu.php:34
+msgid "Profile"
+msgstr "Profil"
+
+#: views/modules/header_user-account-menu.php:37
+msgid "Sign out"
+msgstr "Déconnexion"
+
+#: views/modules/sidebar_login-link.php:3 views/pages/login.php:5
+msgid "Log in"
+msgstr "Connexion"
+
+#: views/modules/sidebar_menu-connected.php:3
+#: views/modules/sidebar_menu-disconnected.php:3
+msgid "NAVIGATION"
+msgstr "NAVIGATION"
+
+#: views/modules/sidebar_menu-connected.php:5
+#: views/modules/sidebar_menu-disconnected.php:5 views/pages-parts/404.php:7
+#: views/pages-parts/500.php:7 views/pages-parts/about.php:8
+#: views/pages-parts/help.php:8 views/pages-parts/home.php:8
+#: views/pages-parts/terms.php:7
+msgid "Home"
+msgstr "Accueil"
+
+#: views/modules/sidebar_menu-connected.php:6
+#: views/modules/sidebar_menu-disconnected.php:6 views/pages-parts/help.php:4
+#: views/pages-parts/help.php:9
+msgid "Help"
+msgstr "Aide"
+
+#: views/modules/sidebar_menu-connected.php:7
+#: views/modules/sidebar_menu-disconnected.php:7
+#: views/pages-parts/about.php:4 views/pages-parts/about.php:9
+msgid "About"
+msgstr "A propos"
+
+#: views/modules/sidebar_search-form.php:4 views/pages-parts/404.php:25
+#: views/pages-parts/500.php:25
+msgid "Search..."
+msgstr "Recherche..."
+
+#: views/pages-parts/404.php:4
+msgid "404 Page not found"
+msgstr "404 Page non trouvée"
+
+#: views/pages-parts/404.php:18
+msgid "Oops! Page not found."
+msgstr "Oops! Page non trouvée."
+
+#: views/pages-parts/404.php:20
+msgid "We could not find the page you were looking for."
+msgstr "Nous ne pouvons pas trouver la page que vous recherchez."
+
+#: views/pages-parts/404.php:21 views/pages-parts/500.php:21
+msgid "Meanwhile, you may <a href='home'>return to dashboard</a> or try using the search form."
+msgstr "En attendant, vous pouvez <a href='home'>retourner à l'accueil</a> ou utiliser le formulaire de recherche."
+
+#: views/pages-parts/500.php:4
+msgid "500 Error"
+msgstr "500 Erreur"
+
+#: views/pages-parts/500.php:18
+msgid "Oops! Something went wrong."
+msgstr "Oops! Quelque chose s'est mal passé."
+
+#: views/pages-parts/500.php:20
+msgid "We will work on fixing that right away."
+msgstr "Nous travaillons à réparer ceci."
+
+#: views/pages-parts/about.php:5
+msgid "To learn everything about <b>Event</b>S"
+msgstr "Pour tout savoir d'<b>Event</b>S"
+
+#: views/pages-parts/help.php:5
+msgid "Learn how to use <b>Event</b>S in your daily life"
+msgstr "Apprenez à utiliser <b>Event</b>S dans votre vie de tout les jours"
+
+#: views/pages-parts/home.php:5
+msgid "Membership area"
+msgstr "Zone membre"
+
+#: views/pages-parts/home.php:21
+msgid "Remove"
+msgstr "Supprimer"
+
+#: views/pages-parts/terms.php:4 views/pages-parts/terms.php:8
+msgid "Terms"
+msgstr "Conditions"
+
+#: views/pages/forgotpassword.php:5
+msgid "Forgot password"
+msgstr "Mot de passe oublié"
+
+#: views/pages/forgotpassword.php:29
+msgid "Password reset"
+msgstr "Réinitialisation du mot de passe"
+
+#: views/pages/forgotpassword.php:30
+msgid "Please enter your mail to receive a link to reset your password."
+msgstr "Merci d'entrer votre courriel pour recevoir un lien vous permettant de réinitialiser votre mot de passe."
+
+#: views/pages/forgotpassword.php:33 views/pages/register.php:37
+msgid "Email"
+msgstr "Courriel"
+
+#: views/pages/forgotpassword.php:40
+msgid "Send"
+msgstr "Envoyer"
+
+#: views/pages/login.php:29
+msgid "Sign in to start your session"
+msgstr "Connectez vous pour commencer votre session"
+
+#: views/pages/login.php:32
+msgid "Login"
+msgstr "Identifiant"
+
+#: views/pages/login.php:36 views/pages/register.php:41
+msgid "Password"
+msgstr "Mot de passe"
+
+#: views/pages/login.php:43
+msgid "Remember Me"
+msgstr "Se souvenir de moi"
+
+#: views/pages/login.php:48
+msgid "Sign In"
+msgstr "Connexion"
+
+#: views/pages/login.php:53
+msgid "I forgot my password"
+msgstr "J’ai oublié mon mot de passe"
+
+#: views/pages/login.php:54 views/pages/register.php:30
+msgid "Register a new membership"
+msgstr "Inscription"
+
+#: views/pages/register.php:5
+msgid "Registration Page"
+msgstr "Formulaire d'inscription"
+
+#: views/pages/register.php:33
+msgid "Full name"
+msgstr "Nom complet"
+
+#: views/pages/register.php:45
+msgid "Retype password"
+msgstr "Vérification du mot de passe"
+
+#: views/pages/register.php:52
+msgid "I agree to the terms"
+msgstr "J'accepte les conditions"
+
+#: views/pages/register.php:52
+msgid "View"
+msgstr "Voir"
+
+#: views/pages/register.php:57
+msgid "Register"
+msgstr "S'inscrire"
+
+#: views/pages/register.php:62
+msgid "I already have a membership"
+msgstr "J'ai déjà un compte"
+
+#: views/pages/skeleton.php:42
+msgid "Toggle navigation"
+msgstr "Basculer la navigation"
+
+#~ msgid "Member since %s"
+#~ msgstr "Membre depuis %s"
+
+#~ msgid "Discover"
+#~ msgstr "Découvrez"
+
+#~ msgid "Discover what <b>Event</b>S can bring to you"
+#~ msgstr "Découvrez ce qu'<b>Event</b>S peut vous apporter"
+
+#~ msgid "All your life is <b>Event</b>S"
+#~ msgstr "Toute votre vie est <b>Event</b>S"
+
+#~ msgid "OR"
+#~ msgstr "OU"
+
+#~ msgid "Sign in using Facebook"
+#~ msgstr "Connectez-vous à l'aide de Facebook"
+
+#~ msgid "Sign in using Google+"
+#~ msgstr "Connectez-vous à l'aide de Google +"
+
+#~ msgid "Sign up using Facebook"
+#~ msgstr "S'inscrire à l'aide de Facebook"
+
+#~ msgid "Sign up using Google+"
+#~ msgstr "S'inscrire à l'aide de Google+"
+
+#~ msgid "Dashboard"
+#~ msgstr "Tableau de bord"

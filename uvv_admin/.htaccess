@@ -1,0 +1,47 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+## SERVICES
+RewriteRule ^services/users$					servicesidx.php?action=getAllUsers [L]
+RewriteRule ^services/clubs$					servicesidx.php?action=getOnlyClubs [L]
+RewriteRule ^services/comites$					servicesidx.php?action=getOnlyComites [L]
+RewriteRule ^services/member_club_id$				servicesidx.php?action=getMemberClubId [L]
+RewriteRule ^services/member_status$				servicesidx.php?action=getMemberStatus [L]
+RewriteRule ^services/member_grade$				servicesidx.php?action=getMemberGrade [L]
+
+## PAGES
+#### LOGIN
+RewriteRule ^login$						index.php?action=login [L]
+RewriteRule ^logout$						index.php?action=logout [L]
+RewriteRule ^register$						index.php?action=register [L]
+RewriteRule ^forgotpassword$					index.php?action=forgotpassword [L]
+#### HOME
+RewriteRule ^home$						index.php?action=home [L]
+#### INVOICES
+RewriteRule ^invoices$						index.php?action=invoices [L]
+RewriteRule ^invoices/print$					index.php?action=invoices&print=true [L]
+RewriteRule ^invoices/payed$					index.php?action=invoices&payed=yes [L]
+RewriteRule ^invoices/payed/print$				index.php?action=invoices&payed=yes&print=true [L]
+RewriteRule ^invoices/unpayed$					index.php?action=invoices&payed=no [L]
+RewriteRule ^invoices/unpayed/print$				index.php?action=invoices&payed=no&print=true [L]
+RewriteRule ^invoice/([0-9]+)$                                  index.php?action=invoice&invoicenumber=$1 [L]
+RewriteRule ^invoice/([0-9]+)/print$                            index.php?action=invoice&invoicenumber=$1&print=true [L]
+#### SEASONS
+RewriteRule ^seasons$                                           index.php?action=seasons [L]
+RewriteRule ^seasons/print$                                     index.php?action=seasons&print=true [L]
+RewriteRule ^season/([0-9]+)$                                   index.php?action=season&seasonnumber=$1 [L]
+#### FDF
+RewriteRule ^fdf$                                               index.php?action=fdf [L]
+RewriteRule ^fdf/print$                                         index.php?action=fdf&print=true [L]
+RewriteRule ^fdf/invoice/([0-9]+)$                              index.php?action=fdf_invoice&numclub=$1 [L]
+RewriteRule ^fdf/invoice/([0-9]+)/print$                        index.php?action=fdf_invoice&numclub=$1&print=true [L]
+#### OTHER
+RewriteRule ^help$						index.php?action=help [L]
+RewriteRule ^about$						index.php?action=about [L]
+RewriteRule ^terms$						index.php?action=terms [L]
+#### ERROR
+RewriteRule ^404$						index.php?action=404 [L]
+RewriteRule ^500$						index.php?action=500 [L]
+
+
+#ErrorDocument 404											index.php?action=404
