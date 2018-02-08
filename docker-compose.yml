@@ -40,7 +40,6 @@ services:
     image: ftertre/damp
     links:
       - db
-      - cdn
     ports:
       - "3000:80"
     volumes:
