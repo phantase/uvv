@@ -1,4 +1,8 @@
 <?php
+
+// Arbitrary set
+date_default_timezone_set('Europe/Paris');
+
 if (PHP_SAPI == 'cli-server') {
     // To help the built-in PHP dev server, check if the request was actually for
     // something which should probably be served as a static file
