@@ -28,7 +28,7 @@ services:
     links:
       - db
     ports:
-      - "80:80"
+      - "3001:80"
     volumes:
       - "./uvv_admin:/var/www/html/uvv_admin"
       - "./uvv_fdf2016:/var/www/html/uvv_fdf2016"
