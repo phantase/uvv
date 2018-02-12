@@ -4,6 +4,7 @@ use Slim\Http\Request;
 use Slim\Http\Response;
 
 use Objects\AdherentMapper;
+use Objects\ClubMapper;
 
 // Routes
 
@@ -25,4 +26,24 @@ $app->get('/api/adherents', function (Request $request, Response $response, arra
     $adherents = $adherent_mapper->getAdherents();
 
     return $response->withJson($adherents, 201);
+});
+
+$app->get('/api/clubs/count', function (Request $request, Response $response, array $args) {
+    // Sample log message
+    $this->logger->info("UVV API /api/clubs/count");
+
+    $club_mapper = new ClubMapper($this->db);
+    $count = $club_mapper->count();
+
+    return $response->withJson(array('count' => $count), 201);
+});
+
+$app->get('/api/clubs', function (Request $request, Response $response, array $args) {
+    // Sample log message
+    $this->logger->info("UVV API /api/clubs");
+
+    $club_mapper = new ClubMapper($this->db);
+    $clubs = $club_mapper->getClubs();
+
+    return $response->withJson($clubs, 201);
 });
