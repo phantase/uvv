@@ -9,7 +9,6 @@ use Objects\ClubMapper;
 // Routes
 
 $app->get('/api/adherents/count', function (Request $request, Response $response, array $args) {
-    // Sample log message
     $this->logger->info("UVV API /api/adherents/count");
 
     $adherent_mapper = new AdherentMapper($this->db);
@@ -19,7 +18,6 @@ $app->get('/api/adherents/count', function (Request $request, Response $response
 });
 
 $app->get('/api/adherents', function (Request $request, Response $response, array $args) {
-    // Sample log message
     $this->logger->info("UVV API /api/adherents");
 
     $adherent_mapper = new AdherentMapper($this->db);
@@ -29,7 +27,6 @@ $app->get('/api/adherents', function (Request $request, Response $response, arra
 });
 
 $app->get('/api/clubs/count', function (Request $request, Response $response, array $args) {
-    // Sample log message
     $this->logger->info("UVV API /api/clubs/count");
 
     $club_mapper = new ClubMapper($this->db);
@@ -39,7 +36,6 @@ $app->get('/api/clubs/count', function (Request $request, Response $response, ar
 });
 
 $app->get('/api/clubs', function (Request $request, Response $response, array $args) {
-    // Sample log message
     $this->logger->info("UVV API /api/clubs");
 
     $club_mapper = new ClubMapper($this->db);
