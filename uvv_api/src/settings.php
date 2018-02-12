@@ -24,5 +24,9 @@ return [
             'dbname' => 'unionvovinamwww',
             'charset' => 'utf8',
         ],
+
+        'jwt' => [
+            'secret' => 'thereisnosecrettobecommitedtogithub',
+        ],
     ],
 ];

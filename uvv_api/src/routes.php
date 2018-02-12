@@ -7,9 +7,9 @@ use Objects\AdherentMapper;
 
 // Routes
 
-$app->get('/adherents/count', function (Request $request, Response $response, array $args) {
+$app->get('/api/adherents/count', function (Request $request, Response $response, array $args) {
     // Sample log message
-    $this->logger->info("UVV API /adherents/count");
+    $this->logger->info("UVV API /api/adherents/count");
 
     $adherent_mapper = new AdherentMapper($this->db);
     $count = $adherent_mapper->count();
@@ -17,9 +17,9 @@ $app->get('/adherents/count', function (Request $request, Response $response, ar
     return $response->withJson(array('count' => $count), 201);
 });
 
-$app->get('/adherents', function (Request $request, Response $response, array $args) {
+$app->get('/api/adherents', function (Request $request, Response $response, array $args) {
     // Sample log message
-    $this->logger->info("UVV API /adherents");
+    $this->logger->info("UVV API /api/adherents");
 
     $adherent_mapper = new AdherentMapper($this->db);
     $adherents = $adherent_mapper->getAdherents();

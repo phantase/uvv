@@ -1,4 +1,11 @@
 <?php
 // Application middleware
 
-// e.g: $app->add(new \Slim\Csrf\Guard);
+$container = $app->getContainer();
+
+$app->add(new \Slim\Middleware\JwtAuthentication([
+  "path" => ["/api"],
+  "passthrough" => ["/api/adherents/count"],
+  "relaxed" => ["localhost", "docker"],
+  "secret" => $container->get('settings')['jwt']['secret']
+]));
